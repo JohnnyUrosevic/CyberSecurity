@@ -8,7 +8,7 @@ def greet_user():
     if name is None:
        greeting = ''
     else:
-        greeting = f'<p>Hello {name}!</p>'
+        greeting = f'<p>Hello {clean_input(name)}!</p>'
     
     html = """
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
